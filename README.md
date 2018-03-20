@@ -1,3 +1,1 @@
-# Modularity
-
-Modularity and Dependency
+# Modularity and Dependency
