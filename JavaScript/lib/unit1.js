@@ -4,8 +4,8 @@ module.exports = {
 
   showPaths() {
     console.dir({
-      '__dirname': __dirname,
-      '__filename': __filename,
+      __dirname,
+      __filename,
       'process.cwd()': process.cwd()
     });
   },
