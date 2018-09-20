@@ -1,18 +1,18 @@
 'use strict';
 
-//global.api = {};
+// global.api = {};
 const api = {};
 api.fs = require('fs');
 api.vm = require('vm');
 api.timers = require('timers');
 
-//global.application = {};
+// global.application = {};
 const application = {};
 application.unit1 = require('./lib/unit1');
 application.unit2 = require('./lib/unit2');
 require('./lib/unit3')(api, application);
 
-application.reloadUnit = (name) => {
+application.reloadUnit = name => {
   const moduleKey = require.resolve('./lib/' + name);
   delete require.cache[moduleKey];
   require('./lib/' + name)(api, application);
