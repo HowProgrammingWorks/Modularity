@@ -2,7 +2,7 @@
 
 class Entity {}
 
-const fn = x => x;
+const fn = (x) => x;
 
 const collection = new Map();
 
