@@ -5,7 +5,6 @@ const LOCAL_CONSTANT = 'local value';
 const EXPORTED_CONSTANT = 'exported value';
 
 module.exports = (api, application) => {
-
   application.unit3 = unit3;
   unit3.EXPORTED_CONSTANT = EXPORTED_CONSTANT;
 
@@ -20,5 +19,4 @@ module.exports = (api, application) => {
 
   unit3.doSomethingSpecial = () => {
   };
-
 };

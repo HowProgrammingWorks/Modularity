@@ -1,7 +1,6 @@
 'use strict';
 
 module.exports = {
-
   showPaths() {
     console.dir({
       __dirname,
@@ -13,5 +12,4 @@ module.exports = {
   doSomething() {
     console.log('Somenting done');
   }
-
 };
