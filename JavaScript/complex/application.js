@@ -1,9 +1,9 @@
 'use strict';
 
 const api = {};
-api.fs = require('fs');
-api.vm = require('vm');
-api.timers = require('timers');
+api.fs = require('node:fs');
+api.vm = require('node:vm');
+api.timers = require('node:timers');
 
 const application = {};
 application.unit1 = require('./lib/unit1');

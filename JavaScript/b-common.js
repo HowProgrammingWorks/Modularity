@@ -1,6 +1,6 @@
 'use strict';
 
-const promise = import('events');
+const promise = import('node:events');
 console.log({ promise });
 
 promise.then((events) => {

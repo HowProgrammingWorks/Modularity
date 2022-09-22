@@ -1,8 +1,8 @@
 'use strict';
 
-const fs = require('fs');
-const events = require('node:events'); // > 16
-const timers1 = require('timers/promises');
+const fs = require('node:fs');
+const events = require('node:events');
+const timers1 = require('node:timers');
 const timers2 = require('node:timers/promises');
 const ws = require('ws');
 const exp = require('./1-export.js');
