@@ -13,7 +13,9 @@ require('./lib/unit3')(api, application);
 application.reloadUnit = (name) => {
   const moduleKey = require.resolve('./lib/' + name);
   delete require.cache[moduleKey];
-  require('./lib/' + name)(api, application);
+  
+  const module = require('./lib/' + name)
+  typeof module === 'function' && module(api, application); 
 };
 
 application.startWatching = () => {
