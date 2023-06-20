@@ -1,0 +1,24 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "author": "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
+  "description": "Just an example module",
+  "license": "MIT",
+  "main": "application.js",
+  "types": "global.d.ts",
+  "engines": {
+    "node": "16 || 18 || 19 || 20"
+  },
+  "dependencies": {
+    "metacom": "^3.0.0-alpha.13",
+    "metaconfiguration": "^2.1.11",
+    "metalog": "^3.1.11",
+    "metaschema": "^2.1.4",
+    "metautil": "^3.9.0",
+    "metavm": "^1.2.4",
+    "metawatch": "^1.1.1",
+    "pg": "^8.11.0",
+    "redis": "^4.6.5",
+    "ws": "^8.13.0"
+  }
+}
