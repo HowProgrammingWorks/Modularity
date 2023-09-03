@@ -9,15 +9,15 @@
     "node": "16 || 18 || 19 || 20"
   },
   "dependencies": {
-    "metacom": "^3.0.0-alpha.13",
+    "metacom": "^3.0.4",
     "metaconfiguration": "^2.1.11",
-    "metalog": "^3.1.11",
-    "metaschema": "^2.1.4",
-    "metautil": "^3.9.0",
-    "metavm": "^1.2.4",
+    "metalog": "^3.1.12",
+    "metaschema": "^2.1.5",
+    "metautil": "^3.12.0",
+    "metavm": "^1.2.6",
     "metawatch": "^1.1.1",
-    "pg": "^8.11.0",
-    "redis": "^4.6.5",
+    "pg": "^8.11.3",
+    "redis": "^4.6.8",
     "ws": "^8.13.0"
   }
 }
