@@ -9,9 +9,9 @@ module.exports = (api, application) => {
   unit3.EXPORTED_CONSTANT = EXPORTED_CONSTANT;
 
   unit3.doSomething = () => {
-    console.log('Local constant: ' + LOCAL_CONSTANT);
-    console.log('Exported constant: ' + unit3.EXPORTED_CONSTANT);
-    console.log('Imported constant: ' + application.unit2.CONSTANT_NAME);
+    console.log(`Local constant: ${LOCAL_CONSTANT}`);
+    console.log(`Exported constant: ${unit3.EXPORTED_CONSTANT}`);
+    console.log(`Imported constant: ${application.unit2.CONSTANT_NAME}`);
   };
 
   unit3.doSomethingElse = () => {

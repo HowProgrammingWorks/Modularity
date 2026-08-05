@@ -11,9 +11,9 @@ application.unit2 = require('./lib/unit2');
 require('./lib/unit3')(api, application);
 
 application.reloadUnit = (name) => {
-  const moduleKey = require.resolve('./lib/' + name);
+  const moduleKey = require.resolve(`./lib/${name}`);
   delete require.cache[moduleKey];
-  const module = require('./lib/' + name);
+  const module = require(`./lib/${name}`);
   if (typeof module === 'function') module(api, application);
 };
 
